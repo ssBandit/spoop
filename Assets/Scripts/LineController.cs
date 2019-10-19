@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.PlayerLoop;
 
 public class LineController : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class LineController : MonoBehaviour
     {
         line = GetComponent<LineRenderer>();
     }
+
 
     // Update is called once per frame
     void Update()

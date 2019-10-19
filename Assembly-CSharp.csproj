@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\LineController.cs" />
+     <Compile Include="Assets\Scripts\PieceData.cs" />
      <Compile Include="Assets\Scripts\PlayerControl.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -82,8 +84,14 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
  <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
@@ -96,12 +104,6 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Editor">
- <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Postprocessing.Runtime">
- <HintPath>C:/Users/niroo/Documents/UnityProjects/big spook in a small room/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Users/niroo/Documents/Unity editors/2019.3.0a8/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

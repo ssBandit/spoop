@@ -27,19 +27,23 @@ public class PlayerControl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     void Update()
     {
         DrawLine();
         line.SetPosition(line.positionCount-1, transform.position);
-    }
 
-    void FixedUpdate()
-    {
         Look();
         Move();
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
+
 
     void Look()
     {
@@ -72,7 +76,7 @@ public class PlayerControl : MonoBehaviour
             RaycastHit hit;
             if(Physics.Raycast(transform.position, transform.forward, out hit, 1))
             {
-                Instantiate(anchor, hit.point, Quaternion.Euler(hit.normal + ninty));
+                Instantiate(anchor, hit.point, Quaternion.FromToRotation(anchor.transform.up, hit.normal) * anchor.transform.rotation);
                 line.SetPosition(line.positionCount - 1, hit.point);
                 line.positionCount++;
             }

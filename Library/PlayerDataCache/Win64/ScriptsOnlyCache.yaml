@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - LevelGenerator
     - LineController
+    - PieceData
     - PlayerControl
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.AmbientOcclusion
@@ -68,23 +70,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10870}
     - Class: 114
-      Script: {instanceID: 10904}
+      Script: {instanceID: 10896}
     - Class: 114
-      Script: {instanceID: 11276}
+      Script: {instanceID: 10906}
     - Class: 114
-      Script: {instanceID: 11472}
+      Script: {instanceID: 10950}
     - Class: 114
-      Script: {instanceID: 11688}
+      Script: {instanceID: 11280}
     - Class: 114
-      Script: {instanceID: 11722}
+      Script: {instanceID: 11312}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11336}
     - Class: 114
-      Script: {instanceID: 12860}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 12874}
+      Script: {instanceID: 11692}
     - Class: 114
-      Script: {instanceID: 12908}
+      Script: {instanceID: 11726}
+    - Class: 114
+      Script: {instanceID: 11904}
+    - Class: 114
+      Script: {instanceID: 12864}
+    - Class: 114
+      Script: {instanceID: 12878}
+    - Class: 114
+      Script: {instanceID: 12912}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -106,6 +116,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 3ad0e7dc8f17c928da6c05a3414e1260
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PieceData
   - hash:
       serializedVersion: 2
       Hash: 726fcf7961cbb4108aa5be5e55b8c8bf
@@ -136,6 +152,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 05f8be905d11bd7c81f4d80c70ba2530
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelGenerator
   - hash:
       serializedVersion: 2
       Hash: 9c7c87712e298256d276eb96e02a57b1
